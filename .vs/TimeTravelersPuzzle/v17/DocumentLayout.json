@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\favou\\SCHOOL\\Game Programming\\TimeTravelersPuzzle\\",
+  "WorkspaceRootPath": "C:\\Users\\aydez\\OneDrive\\Documents\\GitHub\\MonoGame-form-Puzzle\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{563390F4-081D-4BD9-8560-C4A345E94846}|TimeTravelersPuzzle\\TimeTravelersPuzzle.csproj|c:\\users\\favou\\school\\game programming\\timetravelerspuzzle\\timetravelerspuzzle\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{563390F4-081D-4BD9-8560-C4A345E94846}|TimeTravelersPuzzle\\TimeTravelersPuzzle.csproj|c:\\users\\aydez\\onedrive\\documents\\github\\monogame-form-puzzle\\timetravelerspuzzle\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{563390F4-081D-4BD9-8560-C4A345E94846}|TimeTravelersPuzzle\\TimeTravelersPuzzle.csproj|solutionrelative:timetravelerspuzzle\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{563390F4-081D-4BD9-8560-C4A345E94846}|TimeTravelersPuzzle\\TimeTravelersPuzzle.csproj|c:\\users\\favou\\school\\game programming\\timetravelerspuzzle\\timetravelerspuzzle\\puzzlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{563390F4-081D-4BD9-8560-C4A345E94846}|TimeTravelersPuzzle\\TimeTravelersPuzzle.csproj|c:\\users\\aydez\\onedrive\\documents\\github\\monogame-form-puzzle\\timetravelerspuzzle\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{563390F4-081D-4BD9-8560-C4A345E94846}|TimeTravelersPuzzle\\TimeTravelersPuzzle.csproj|solutionrelative:timetravelerspuzzle\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{563390F4-081D-4BD9-8560-C4A345E94846}|TimeTravelersPuzzle\\TimeTravelersPuzzle.csproj|c:\\users\\aydez\\onedrive\\documents\\github\\monogame-form-puzzle\\timetravelerspuzzle\\puzzlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{563390F4-081D-4BD9-8560-C4A345E94846}|TimeTravelersPuzzle\\TimeTravelersPuzzle.csproj|solutionrelative:timetravelerspuzzle\\puzzlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{563390F4-081D-4BD9-8560-C4A345E94846}|TimeTravelersPuzzle\\TimeTravelersPuzzle.csproj|c:\\users\\favou\\school\\game programming\\timetravelerspuzzle\\timetravelerspuzzle\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{563390F4-081D-4BD9-8560-C4A345E94846}|TimeTravelersPuzzle\\TimeTravelersPuzzle.csproj|c:\\users\\aydez\\onedrive\\documents\\github\\monogame-form-puzzle\\timetravelerspuzzle\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{563390F4-081D-4BD9-8560-C4A345E94846}|TimeTravelersPuzzle\\TimeTravelersPuzzle.csproj|solutionrelative:timetravelerspuzzle\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{563390F4-081D-4BD9-8560-C4A345E94846}|TimeTravelersPuzzle\\TimeTravelersPuzzle.csproj|c:\\users\\favou\\school\\game programming\\timetravelerspuzzle\\timetravelerspuzzle\\tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{563390F4-081D-4BD9-8560-C4A345E94846}|TimeTravelersPuzzle\\TimeTravelersPuzzle.csproj|c:\\users\\aydez\\onedrive\\documents\\github\\monogame-form-puzzle\\timetravelerspuzzle\\tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{563390F4-081D-4BD9-8560-C4A345E94846}|TimeTravelersPuzzle\\TimeTravelersPuzzle.csproj|solutionrelative:timetravelerspuzzle\\tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{563390F4-081D-4BD9-8560-C4A345E94846}|TimeTravelersPuzzle\\TimeTravelersPuzzle.csproj|c:\\users\\favou\\school\\game programming\\timetravelerspuzzle\\timetravelerspuzzle\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{563390F4-081D-4BD9-8560-C4A345E94846}|TimeTravelersPuzzle\\TimeTravelersPuzzle.csproj|solutionrelative:timetravelerspuzzle\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,22 +36,22 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Timer.cs",
-              "DocumentMoniker": "C:\\Users\\favou\\SCHOOL\\Game Programming\\TimeTravelersPuzzle\\TimeTravelersPuzzle\\Timer.cs",
+              "DocumentMoniker": "C:\\Users\\aydez\\OneDrive\\Documents\\GitHub\\MonoGame-form-Puzzle\\TimeTravelersPuzzle\\Timer.cs",
               "RelativeDocumentMoniker": "TimeTravelersPuzzle\\Timer.cs",
-              "ToolTip": "C:\\Users\\favou\\SCHOOL\\Game Programming\\TimeTravelersPuzzle\\TimeTravelersPuzzle\\Timer.cs",
+              "ToolTip": "C:\\Users\\aydez\\OneDrive\\Documents\\GitHub\\MonoGame-form-Puzzle\\TimeTravelersPuzzle\\Timer.cs",
               "RelativeToolTip": "TimeTravelersPuzzle\\Timer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-14T01:17:46.087Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PuzzleManager.cs",
-              "DocumentMoniker": "C:\\Users\\favou\\SCHOOL\\Game Programming\\TimeTravelersPuzzle\\TimeTravelersPuzzle\\PuzzleManager.cs",
+              "DocumentMoniker": "C:\\Users\\aydez\\OneDrive\\Documents\\GitHub\\MonoGame-form-Puzzle\\TimeTravelersPuzzle\\PuzzleManager.cs",
               "RelativeDocumentMoniker": "TimeTravelersPuzzle\\PuzzleManager.cs",
-              "ToolTip": "C:\\Users\\favou\\SCHOOL\\Game Programming\\TimeTravelersPuzzle\\TimeTravelersPuzzle\\PuzzleManager.cs",
+              "ToolTip": "C:\\Users\\aydez\\OneDrive\\Documents\\GitHub\\MonoGame-form-Puzzle\\TimeTravelersPuzzle\\PuzzleManager.cs",
               "RelativeToolTip": "TimeTravelersPuzzle\\PuzzleManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -60,11 +60,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "GameState.cs",
-              "DocumentMoniker": "C:\\Users\\favou\\SCHOOL\\Game Programming\\TimeTravelersPuzzle\\TimeTravelersPuzzle\\GameState.cs",
+              "DocumentMoniker": "C:\\Users\\aydez\\OneDrive\\Documents\\GitHub\\MonoGame-form-Puzzle\\TimeTravelersPuzzle\\GameState.cs",
               "RelativeDocumentMoniker": "TimeTravelersPuzzle\\GameState.cs",
-              "ToolTip": "C:\\Users\\favou\\SCHOOL\\Game Programming\\TimeTravelersPuzzle\\TimeTravelersPuzzle\\GameState.cs",
+              "ToolTip": "C:\\Users\\aydez\\OneDrive\\Documents\\GitHub\\MonoGame-form-Puzzle\\TimeTravelersPuzzle\\GameState.cs",
               "RelativeToolTip": "TimeTravelersPuzzle\\GameState.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -73,11 +73,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Tile.cs",
-              "DocumentMoniker": "C:\\Users\\favou\\SCHOOL\\Game Programming\\TimeTravelersPuzzle\\TimeTravelersPuzzle\\Tile.cs",
+              "DocumentMoniker": "C:\\Users\\aydez\\OneDrive\\Documents\\GitHub\\MonoGame-form-Puzzle\\TimeTravelersPuzzle\\Tile.cs",
               "RelativeDocumentMoniker": "TimeTravelersPuzzle\\Tile.cs",
-              "ToolTip": "C:\\Users\\favou\\SCHOOL\\Game Programming\\TimeTravelersPuzzle\\TimeTravelersPuzzle\\Tile.cs",
+              "ToolTip": "C:\\Users\\aydez\\OneDrive\\Documents\\GitHub\\MonoGame-form-Puzzle\\TimeTravelersPuzzle\\Tile.cs",
               "RelativeToolTip": "TimeTravelersPuzzle\\Tile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -86,13 +86,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Game1.cs",
-              "DocumentMoniker": "C:\\Users\\favou\\SCHOOL\\Game Programming\\TimeTravelersPuzzle\\TimeTravelersPuzzle\\Game1.cs",
+              "DocumentMoniker": "C:\\Users\\aydez\\OneDrive\\Documents\\GitHub\\MonoGame-form-Puzzle\\TimeTravelersPuzzle\\Game1.cs",
               "RelativeDocumentMoniker": "TimeTravelersPuzzle\\Game1.cs",
-              "ToolTip": "C:\\Users\\favou\\SCHOOL\\Game Programming\\TimeTravelersPuzzle\\TimeTravelersPuzzle\\Game1.cs",
+              "ToolTip": "C:\\Users\\aydez\\OneDrive\\Documents\\GitHub\\MonoGame-form-Puzzle\\TimeTravelersPuzzle\\Game1.cs",
               "RelativeToolTip": "TimeTravelersPuzzle\\Game1.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAgwCcAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowDYAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-14T01:06:40.711Z",
               "EditorCaption": ""
