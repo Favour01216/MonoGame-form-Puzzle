@@ -19,18 +19,21 @@ namespace TimeTravelersPuzzle
         private SpriteBatch _spriteBatch;
         private Timer _timer;
         private GameState _currentState;
+        private PuzzleManager _puzzleManager;
+        private SpriteFont _font;
 
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
+
+            _currentState = GameState.MainMenu;
         }
 
         protected override void Initialize()
         {
-            // TODO: Add your initialization logic here
-
+            _puzzleManager = new PuzzleManager();
             base.Initialize();
         }
 
@@ -38,18 +41,26 @@ namespace TimeTravelersPuzzle
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
 
+            _font = Content.Load<SpriteFont>("DefaultFont");
+
             _timer = new Timer(60f, _font, new Vector2(10, 10)); //add the font  to this line  where _font is 
 
-
-            // TODO: use this.Content to load your game content here
+            Tile[,] tiles = _puzzleManager.GetTiles();
+            foreach (var tile in tiles)
+            {
+                if (!tile.IsEmpty)
+                {
+                    tile.Texture = Content.Load<Texture2D>($"Tile{tile.Number}"); // Make sure Tile1.png,Tile2.png,etc are in the content folder
+                }
+            }
         }
+            // TODO: use this.Content to load your game content here
 
         protected override void Update(GameTime gameTime)
         {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
-
-
+            
             _timer.Update(gameTime);
           
             //swickh statment to change  betwen menu game and game over
@@ -60,6 +71,8 @@ namespace TimeTravelersPuzzle
                     if (Keyboard.GetState().IsKeyDown(Keys.Enter))
                     {
                         _currentState = GameState.Playing;
+                        _timer = new Timer(60f, _font, new Vector2(10, 10));
+                        _puzzleManager.ShuffleTiles();
                     }
                     break;
 
@@ -73,6 +86,37 @@ namespace TimeTravelersPuzzle
                     }
                     break;
 
+                    MouseState mouseState = Mouse.GetState();
+                    if (mouseState.LeftButton == ButtonState.Pressed) 
+                    {
+                        Point mousePos = mouseState.Position.ToPoint();
+
+                        int tileSize = 100; // Each tile is 100x100 pixels
+                        int row = mousePos.Y / tileSize;
+                        int col = mousePos.X / tileSize;
+
+                        if (row >= 0 && row < 3 && col >= 0 && col < 3)
+                        {
+                            Tile clickedTile = _puzzleManager.GetTiles()[row, col];
+                            if (!clickedTile.IsEmpty)
+                            {
+                                Point emptyPos = _puzzleManager.GetEmptyTilePosition();
+                                bool isAdjacent = (Math.Abs(emptyPos.X - row) == 1 && emptyPos.Y == col) ||
+                                                  (Math.Abs(emptyPos.Y - col) == 1 && emptyPos.X == row);
+
+                                if (isAdjacent)
+                                {
+                                    _puzzleManager.SwapWithEmptyTile(clickedTile);
+
+                                    if (_puzzleManager.IsSolved())
+                                    {
+                                        _currentState = GameState.GameOver;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    
                 case GameState.GameOver:
                    
                     if (Keyboard.GetState().IsKeyDown(Keys.Enter))
@@ -89,23 +133,33 @@ namespace TimeTravelersPuzzle
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
+             _spriteBatch.Begin();
            
             switch (_currentState)
             {
                 case GameState.MainMenu:
-                    // draw maine menu here 
-
+                    _spriteBatch.DrawString(_font, "Welcome to Time Traveler's Puzzle!", new Vector2(100, 100), Color.White);
+                    _spriteBatch.DrawString(_font, "Press ENTER to Start", new Vector2(100, 200), Color.White);
+                    
                     break;
 
                 case GameState.Playing:
-                    //draw game here 
+                    Tile[,] tiles = _puzzleManager.GetTiles();
+                    foreach (var tile in tiles)
+                    {
+                        tile.Draw(_spriteBatch, new Vector2(50, 50), 100); 
+                    }
                     _timer.Draw(_spriteBatch);
                     break;
 
                 case GameState.GameOver:
-                    // drow game over here
+                   _spriteBatch.DrawString(_font, "Game Over!", new Vector2(200, 100), Color.White);
+                   _spriteBatch.DrawString(_font, "Press ENTER to Restart", new Vector2(200, 200), Color.White);
                     break;
             }
+
+            _spriteBatch.End();
+            
             // TODO: Add your drawing code here
             _timer.Draw(_spriteBatch);
             base.Draw(gameTime);
