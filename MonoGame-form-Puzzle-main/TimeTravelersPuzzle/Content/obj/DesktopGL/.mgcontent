@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/favou/SCHOOL/Game Programming/MonoGame-form-Puzzle-main/MonoGame-form-Puzzle-main/TimeTravelersPuzzle/Content/../../../../Lose.wav</File>
+    <File>C:/Users/favou/SCHOOL/Game Programming/MonoGame-form-Puzzle-main/MonoGame-form-Puzzle-main/TimeTravelersPuzzle/Content/../../../../Play.wav</File>
+    <File>C:/Users/favou/SCHOOL/Game Programming/MonoGame-form-Puzzle-main/MonoGame-form-Puzzle-main/TimeTravelersPuzzle/Content/Fonts/MyFont.spritefont</File>
+    <File>C:/Users/favou/SCHOOL/Game Programming/MonoGame-form-Puzzle-main/MonoGame-form-Puzzle-main/TimeTravelersPuzzle/Content/Images/Background.jpg</File>
+    <File>C:/Users/favou/SCHOOL/Game Programming/MonoGame-form-Puzzle-main/MonoGame-form-Puzzle-main/TimeTravelersPuzzle/Content/Images/ReferenceImage.jpeg</File>
+    <File>C:/Users/favou/SCHOOL/Game Programming/MonoGame-form-Puzzle-main/MonoGame-form-Puzzle-main/TimeTravelersPuzzle/Content/Images/Tile1.jpg</File>
+    <File>C:/Users/favou/SCHOOL/Game Programming/MonoGame-form-Puzzle-main/MonoGame-form-Puzzle-main/TimeTravelersPuzzle/Content/Images/Tile2.jpg</File>
+    <File>C:/Users/favou/SCHOOL/Game Programming/MonoGame-form-Puzzle-main/MonoGame-form-Puzzle-main/TimeTravelersPuzzle/Content/Images/Tile3.jpg</File>
+    <File>C:/Users/favou/SCHOOL/Game Programming/MonoGame-form-Puzzle-main/MonoGame-form-Puzzle-main/TimeTravelersPuzzle/Content/Images/Tile4.jpg</File>
+    <File>C:/Users/favou/SCHOOL/Game Programming/MonoGame-form-Puzzle-main/MonoGame-form-Puzzle-main/TimeTravelersPuzzle/Content/Images/Tile5.jpg</File>
+    <File>C:/Users/favou/SCHOOL/Game Programming/MonoGame-form-Puzzle-main/MonoGame-form-Puzzle-main/TimeTravelersPuzzle/Content/Images/Tile6.jpg</File>
+    <File>C:/Users/favou/SCHOOL/Game Programming/MonoGame-form-Puzzle-main/MonoGame-form-Puzzle-main/TimeTravelersPuzzle/Content/Images/Tile7.jpg</File>
+    <File>C:/Users/favou/SCHOOL/Game Programming/MonoGame-form-Puzzle-main/MonoGame-form-Puzzle-main/TimeTravelersPuzzle/Content/Images/Tile8.jpg</File>
+    <File>C:/Users/favou/SCHOOL/Game Programming/MonoGame-form-Puzzle-main/MonoGame-form-Puzzle-main/TimeTravelersPuzzle/Content/Images/Tile9.jpg</File>
+    <File>C:/Users/favou/SCHOOL/Game Programming/MonoGame-form-Puzzle-main/MonoGame-form-Puzzle-main/TimeTravelersPuzzle/Content/Sounds/BackgroundMusic.mp3</File>
+    <File>C:/Users/favou/SCHOOL/Game Programming/MonoGame-form-Puzzle-main/MonoGame-form-Puzzle-main/TimeTravelersPuzzle/Content/Sounds/Win.wav</File>
+  </SourceFiles>
+  <DestFiles>
+    <File>Sounds/Lose.wav</File>
+    <File>Sounds/Play.wav</File>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>
